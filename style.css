@@ -1,0 +1,36 @@
+.hero, footer{
+    background-color: #1F2937;
+}
+.hero-main{
+color: #F9FAF8;
+font-size: 48px;
+font-weight: extra-bold;
+}
+.hero-secondary{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+button, .action{
+    background-color: #3882F6;
+}
+.information{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: light italic;
+    color: #1F2937;
+}
+ul{
+    list-style: none; 
+}
+img{
+    display:flex;
+}
