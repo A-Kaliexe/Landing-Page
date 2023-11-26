@@ -1,3 +1,6 @@
+header{
+  display:flex;
+}
 .hero, footer{
     background-color: #1F2937;
 }
@@ -5,20 +8,23 @@
 color: #F9FAF8;
 font-size: 48px;
 font-weight: extra-bold;
+display:flex;
+ padding: 150px
 }
-.hero-secondary{
+.hero-secondary, a{
     font-size: 18px;
     color: #E5E7EB;
 }
 .logo{
     font-size: 24px;
     color: #F9FAF8;
+
 }
 button, .action{
     background-color: #3882F6;
 }
 .information{
-    font-size: 36px;
+  font-size:36px;
     font-weight: extra-bold;
     color: #1F2937;
 }
@@ -28,9 +34,25 @@ button, .action{
     font-weight: light italic;
     color: #1F2937;
 }
+a{
+  text-decoration:none;
+}
 ul{
-    list-style: none; 
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    margin: -65px;
+    
+    
+  
 }
 img{
     display:flex;
+    border-radius: bold;
+}
+#roses{
+  display:flex;
+  justify-content: center;
+  align-content: flex-end;
 }
