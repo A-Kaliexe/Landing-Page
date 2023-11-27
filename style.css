@@ -1,15 +1,15 @@
-header{
-  display:flex;
+*{
+  border: 2px solid red;
 }
 .hero, footer{
     background-color: #1F2937;
 }
 .hero-main{
-color: #F9FAF8;
-font-size: 48px;
-font-weight: extra-bold;
-display:flex;
- padding: 150px
+  color: #F9FAF8;
+  font-size: 48px;
+  font-weight: extra-bold;
+  display:flex;
+  padding: 150px
 }
 .hero-secondary, a{
     font-size: 18px;
@@ -18,13 +18,17 @@ display:flex;
 .logo{
     font-size: 24px;
     color: #F9FAF8;
+    margin: 30px;
+    
 
 }
 button, .action{
-    background-color: #3882F6;
+   background-color: #3882F6;
+   border-radius: 20px;
+   padding: 10px;
 }
 .information{
-  font-size:36px;
+    font-size:36px;
     font-weight: extra-bold;
     color: #1F2937;
 }
@@ -42,17 +46,23 @@ ul{
     display: flex;
     justify-content: flex-end;
     gap: 8px;
-    margin: -65px;
-    
-    
-  
+    margin: -65px; 
 }
 img{
     display:flex;
     border-radius: bold;
 }
-#roses{
-  display:flex;
-  justify-content: center;
-  align-content: flex-end;
+.images{
+  display: flex;
+  flex-direction: row:
+  justify-content:;
+  align-content: center;
+  width: 200px;
+  margin: 52px;
+}
+footer{
+  text-align: center;
+}
+.subtext{
+  
 }
